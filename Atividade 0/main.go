@@ -51,6 +51,7 @@ func main() {
 	}
 
 	primos := primosAteN(num)
+	fmt.Println("Existem", len(primos), "primos entre 1 e", num)
 
 	for i, primo := range primos {
 		if i == len(primos)-1 {
