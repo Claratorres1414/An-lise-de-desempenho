@@ -1,0 +1,55 @@
+# =========================
+# Go
+# =========================
+
+# Binários gerados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Pasta de build
+bin/
+build/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependências vendorizadas (opcional)
+vendor/
+
+# =========================
+# IDE JetBrains (IntelliJ / GoLand)
+# =========================
+
+.idea/
+
+# Arquivos específicos da IDE
+*.iml
+
+# =========================
+# Sistema operacional
+# =========================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Arquivos temporários
+# =========================
+
+tmp/
+temp/
